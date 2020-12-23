@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Data">
+  <DataContextMoniker Name="/DataDataContext" />
+  <nestedChildShapes>
+    <classShape Id="6b2f1eba-4f02-41c7-a396-427348d54210" absoluteBounds="3.5, 1.125, 2, 1.3862939453125">
+      <DataClassMoniker Name="/DataDataContext/TieuSu" />
+      <nestedChildShapes>
+        <elementListCompartment Id="40c67c82-0ce6-49be-8c26-fd114d38e005" absoluteBounds="3.515, 1.585, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e3a71b00-e502-4bfc-8f2d-c8a19ed53e0b" absoluteBounds="0.75, 0.875, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/DataDataContext/user" />
+      <nestedChildShapes>
+        <elementListCompartment Id="59961a43-6f89-4bb4-96d8-fa803c5dd312" absoluteBounds="0.765, 1.335, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 1.81814697265625); (3.5 : 1.81814697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataDataContext/user/user_TieuSu" />
+      <nodes>
+        <classShapeMoniker Id="e3a71b00-e502-4bfc-8f2d-c8a19ed53e0b" />
+        <classShapeMoniker Id="6b2f1eba-4f02-41c7-a396-427348d54210" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
